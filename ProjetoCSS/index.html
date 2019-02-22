@@ -1,64 +1,70 @@
 <!doctype html>
-<!--doctype informa ao agente de usuário a versão do html que deve ser
-renderizada-->
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
 <html lang="pt-br">
 
 <head>
-    <title>Página de Estrutura básica</title>
-    <!--Linha abaixo serve para codificação do texto, evitando problemas com acentos-->
+    <title> pagina de exemplo estrutura basica </title>
     <meta charset="utf-8">
-    <!--Linha abaixo para informar quem foi o autor desta página-->
-    <meta name="author" content="Italo">
-    <meta name="descripton" content="iniciando web designer">
-    <meta name="keywords" content="web, designer, tecnologia">
+    <meta name="author" content="Daniel">
+    <meta name="description" content="descrição bacanuda">
+    <meta name="keywords" content="html5, tecnologia">
 
-    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
+
     <div id="principal">
         <header class="hero">
             <nav>
                 <ul>
-                    <li> <a href="index.html">Home</a> </li>
-                    <li> <a href="#">Projetos</a> </li>
-                    <li> <a href="#">Quem sou</a> </li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Quem Sou</a></li>
                 </ul>
             </nav>
-            <div>
+            <div class="hero-content">
                 <h1>Curso Web Fundamentos</h1>
                 <p>Aprenda HTML, CSS e Javascript</p>
             </div>
         </header>
+
         <main>
-            <section>
+
+            <section class="content-section">
                 <div class="card">
-                    <img src="" alt="">
+                    <img src="../Imagens/card_01.png" alt="">
                     <p>Seletores</p>
                 </div>
+
                 <div class="card">
-                    <img src="" alt="">
+                    <img src="../Imagens/card_02.jpg" alt="">
                     <p>Posicionamento</p>
                 </div>
+
                 <div class="card">
-                    <img src="" alt="">
+                    <img src="../Imagens/card_03.jpg" alt="">
                     <p>Fontes</p>
                 </div>
             </section>
-            <section>
+
+            <section class="content-section">
                 <article>
-                    <header>
-                        <h2>Título do article</h2>
+                    <header class="content-header">
+                        <h2>Titulo do article</h2>
                     </header>
-                    <p>Parágrafo 1</p>
-                    <p>Parágrafo 2</p>
+                    <p>Paragrafo 1</p>
+                    <p>Paragrafo 2</p>
                 </article>
             </section>
-        </main>
-        <footer>
-            <p>Copyright &copy; 2018</p>
-        </footer>
 
+        </main>
+
+        <footer class="rodape">
+
+            <p>Copyright &copy; 2018</p>
+
+        </footer>
     </div>
 
 </body>
